@@ -1,0 +1,22 @@
+{
+  "name": "oxygendrop-burn15",
+  "version": "0.2.0",
+  "description": "Use Burn15 in the browser to share selected text as an encrypted note that expires in 15 minutes.",
+  "author": {
+    "name": "oxygenDrop",
+    "email": "danielbarassistant@gmail.com"
+  },
+  "homepage": "https://burn15.com/",
+  "keywords": [
+    "encrypted-notes",
+    "privacy",
+    "temporary-sharing"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/danielbarassistant/burn15-plugin",
+  "displayName": "Burn15 by oxygenDrop",
+  "icon": "./icon.svg",
+  "documentationUrl": "https://github.com/danielbarassistant/burn15-plugin/tree/main/claude#readme",
+  "supportUrl": "https://github.com/danielbarassistant/burn15-plugin/blob/main/claude/SUPPORT.md",
+  "privacyPolicyUrl": "https://github.com/danielbarassistant/burn15-plugin/blob/main/claude/PRIVACY.md"
+}
