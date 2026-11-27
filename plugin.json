@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "burn15",
+  "version": "0.1.1",
+  "description": "Create, read, and burn locally encrypted notes that expire 15 minutes after creation.",
+  "author": {
+    "name": "oxygenDrop",
+    "email": "danielbarassistant@gmail.com"
+  },
+  "homepage": "https://burn15.com/",
+  "keywords": [
+    "encrypted-notes",
+    "privacy",
+    "temporary-sharing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "Burn15",
+        "shortDescription": "Encrypted notes. 15 minutes.",
+        "longDescription": "Share selected text as an encrypted note that expires 15 minutes after creation. Create a link, read a supplied Burn15 link, or manually burn a note. Encryption and decryption happen in the assistant's local execution environment before anything is uploaded to Burn15. The assistant and its conversation history can still see the text and complete links. No account or payment is required. Notes allow repeated reads until expiry or manual deletion. Burning does not revoke recipient copies or provider backups. Requires Node.js 24 or newer and HTTPS access to burn15.com.",
+        "developerName": "oxygenDrop",
+        "category": "Security",
+        "capabilities": [
+          "Create encrypted notes",
+          "Read supplied note links",
+          "Burn specified notes"
+        ],
+        "websiteURL": "https://burn15.com/",
+        "brandColor": "#EA580C",
+        "defaultPrompt": [
+          "Use Burn15 to share my selected text in an encrypted note that expires in 15 minutes."
+        ]
+      }
+    }
+  },
+  "license": "MIT",
+  "repository": "https://github.com/danielbarassistant/burn15-plugin"
+}

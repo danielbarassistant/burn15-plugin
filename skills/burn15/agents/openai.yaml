@@ -1,0 +1,6 @@
+interface:
+  display_name: "Burn15"
+  short_description: "Share encrypted notes that expire in 15 minutes"
+  default_prompt: "Use $burn15 to share my selected text as an encrypted note that expires in 15 minutes."
+  brand_color: "#EA580C"
+

@@ -1,0 +1,22 @@
+{
+  "name": "burn15",
+  "version": "0.1.1",
+  "description": "Create, read, and burn locally encrypted notes that expire 15 minutes after creation.",
+  "author": {
+    "name": "oxygenDrop",
+    "email": "danielbarassistant@gmail.com"
+  },
+  "homepage": "https://burn15.com/",
+  "keywords": [
+    "encrypted-notes",
+    "privacy",
+    "temporary-sharing"
+  ],
+  "license": "MIT",
+  "repository": "https://github.com/danielbarassistant/burn15-plugin",
+  "displayName": "Burn15",
+  "icon": "./icon.svg",
+  "documentationUrl": "https://github.com/danielbarassistant/burn15-plugin#readme",
+  "supportUrl": "https://github.com/danielbarassistant/burn15-plugin/blob/main/SUPPORT.md",
+  "privacyPolicyUrl": "https://github.com/danielbarassistant/burn15-plugin/blob/main/PRIVACY.md"
+}
